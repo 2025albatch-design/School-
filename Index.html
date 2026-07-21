@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Memories</title>
+<style>
+body{
+  font-family: Arial;
+  text-align:center;
+  background:#f2f2f2;
+}
+.box{
+  background:white;
+  width:300px;
+  margin:100px auto;
+  padding:20px;
+  border-radius:10px;
+}
+input,button{
+  width:90%;
+  padding:10px;
+  margin:8px;
+}
+button{
+  background:#0066ff;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+#photos{
+  display:none;
+}
+img{
+  width:250px;
+  margin:10px;
+  border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box" id="login">
+<h2>School Memories</h2>
+
+<input id="username" placeholder="Username">
+<input id="password" type="password" placeholder="Password">
+
+<button onclick="login()">Login</button>
+
+<p id="msg"></p>
+</div>
+
+
+<div id="photos">
+<h1>Our School Memories 📸</h1>
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+
+</div>
+
+
+<script>
+function login(){
+
+let user = document.getElementById("username").value;
+let pass = document.getElementById("password").value;
+
+if(user=="admin" && pass=="12345"){
+
+document.getElementById("login").style.display="none";
+document.getElementById("photos").style.display="block";
+
+}else{
+
+document.getElementById("msg").innerHTML="Wrong Username or Password";
+
+}
+
+}
+</script>
+
+</body>
+</html>

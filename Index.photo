@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📸 School Photo Gallery</h1>
+
+<div class="gallery">
+    <img src="IMG-20251102-WA001.jpg">
+    <img src="IMG-20251103-WA001.jpg">
+    <img src="IMG-20251103-WA002.jpg">
+    <img src="IMG-20251103-WA003.jpg">
+    <img src="IMG-20251103-WA004.jpg">
+    <img src="IMG-20251107-WA001.jpg">
+    <img src="IMG-20251108-WA001.jpg">
+    <img src="IMG-20251210-WA001.jpg">
+    <img src="IMG-20251210-WA002.jpg">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
